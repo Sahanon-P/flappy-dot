@@ -14,6 +14,10 @@ class Dot(Sprite):
 class Square:
     pass
 
+class Line:
+    pass
+
+
 class FlappyGame(GameApp):
     def create_sprites(self):
         self.dot = Dot(self, 'images/dot.png', CANVAS_WIDTH // 2, CANVAS_HEIGHT // 2)
