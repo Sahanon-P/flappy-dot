@@ -11,6 +11,8 @@ CANVAS_HEIGHT = 500
 class Dot(Sprite):
     pass
 
+class Square:
+    pass
 
 class FlappyGame(GameApp):
     def create_sprites(self):
