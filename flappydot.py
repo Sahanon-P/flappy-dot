@@ -24,9 +24,11 @@ class FlappyGame(GameApp):
         self.create_sprites()
 
     def pre_update(self):
+        #pre_update
         pass
 
     def post_update(self):
+        #post_update
         pass
 
     def on_key_pressed(self, event):
