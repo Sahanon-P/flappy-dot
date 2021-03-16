@@ -2,11 +2,11 @@ import tkinter as tk
 
 from gamelib import Sprite, GameApp, Text
 
-CANVAS_WIDTH = 800
-CANVAS_HEIGHT = 500
-
 UPDATE_DELAY = 33
 GRAVITY = 2.5
+
+CANVAS_WIDTH = 800
+CANVAS_HEIGHT = 500
 
 class Dot(Sprite):
     pass
